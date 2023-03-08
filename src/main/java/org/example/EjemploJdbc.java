@@ -4,7 +4,9 @@ import org.example.modelo.Producto;
 import org.example.repositorio.ProductoRepositorioImp;
 import org.example.repositorio.Repositorio;
 import org.example.util.ConexionSingleton;
-import java.sql.*;
+
+import java.sql.Connection;
+import java.sql.SQLException;
 
 public class EjemploJdbc {
 
@@ -14,7 +16,8 @@ public class EjemploJdbc {
         try (Connection conn = ConexionSingleton.getInstance()){
 
             Repositorio<Producto> repo = new ProductoRepositorioImp();
-            repo.listar().forEach(p-> System.out.println(p.getNombre()));
+            repo.listar().forEach(System.out::println);
+            System.out.println(repo.porId(1L));
 
         } catch (SQLException e) {
             throw new RuntimeException(e);
