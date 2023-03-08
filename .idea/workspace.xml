@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4a280c8-9175-45b8-9ab5-6442a0a857b7" name="Changes" comment="">
+    <list default="true" id="f4a280c8-9175-45b8-9ab5-6442a0a857b7" name="Changes" comment="recorre registros y al final accede a un ad de tipo long">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EjemploJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/EjemploJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/modelo/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/modelo/Producto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repositorio/ProductoRepositorioImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repositorio/ProductoRepositorioImp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,8 +80,16 @@
       <workItem from="1678151359913" duration="2702000" />
       <workItem from="1678198756075" duration="3661000" />
       <workItem from="1678285223068" duration="1007000" />
-      <workItem from="1678292282610" duration="5095000" />
+      <workItem from="1678292282610" duration="8425000" />
     </task>
+    <task id="LOCAL-00001" summary="recorre registros y al final accede a un ad de tipo long">
+      <created>1678301948393</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678301948393</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +105,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="recorre registros y al final accede a un ad de tipo long" />
+    <option name="LAST_COMMIT_MESSAGE" value="recorre registros y al final accede a un ad de tipo long" />
   </component>
 </project>
