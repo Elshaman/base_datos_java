@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4a280c8-9175-45b8-9ab5-6442a0a857b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EjemploJdbcDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EjemploJdbcUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modelo/Categoria.java" afterDir="false" />
+    <list default="true" id="f4a280c8-9175-45b8-9ab5-6442a0a857b7" name="Changes" comment="crud con singleton y conexion por cada metodo.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/util/ConexionPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EjemploJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/EjemploJdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/modelo/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/modelo/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EjemploJdbcDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/EjemploJdbcDelete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EjemploJdbcUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/EjemploJdbcUpdate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/repositorio/ProductoRepositorioImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/repositorio/ProductoRepositorioImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/util/ConexionSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/util/ConexionSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/util/ConexionSingleton.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="conexion_por_operacion" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,7 +77,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploJdbcDelete">
+  <component name="RunManager" selected="Application.EjemploJdbc">
     <configuration name="EjemploJdbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.EjemploJdbc" />
       <module name="jdbc" />
@@ -120,8 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjemploJdbcDelete" />
         <item itemvalue="Application.EjemploJdbc" />
+        <item itemvalue="Application.EjemploJdbcDelete" />
         <item itemvalue="Application.EjemploJdbcUpdate" />
       </list>
     </recent_temporary>
@@ -140,7 +139,7 @@
       <workItem from="1678285223068" duration="1007000" />
       <workItem from="1678292282610" duration="8425000" />
       <workItem from="1678369698154" duration="1390000" />
-      <workItem from="1678624770727" duration="3730000" />
+      <workItem from="1678624770727" duration="7125000" />
     </task>
     <task id="LOCAL-00001" summary="recorre registros y al final accede a un ad de tipo long">
       <created>1678301948393</created>
@@ -149,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678301948393</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="crud con singleton y conexion por cada metodo.">
+      <created>1678631566170</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678631566170</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +174,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="recorre registros y al final accede a un ad de tipo long" />
-    <option name="LAST_COMMIT_MESSAGE" value="recorre registros y al final accede a un ad de tipo long" />
+    <MESSAGE value="crud con singleton y conexion por cada metodo." />
+    <option name="LAST_COMMIT_MESSAGE" value="crud con singleton y conexion por cada metodo." />
   </component>
 </project>

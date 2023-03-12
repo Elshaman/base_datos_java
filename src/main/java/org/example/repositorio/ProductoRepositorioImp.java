@@ -2,7 +2,7 @@ package org.example.repositorio;
 
 import org.example.modelo.Categoria;
 import org.example.modelo.Producto;
-import org.example.util.ConexionSingleton;
+import org.example.util.ConexionPool;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -11,7 +11,7 @@ import java.util.List;
 public class ProductoRepositorioImp implements Repositorio<Producto> {
 
     private Connection getConnection() throws SQLException {
-        return ConexionSingleton.getInstance();
+        return ConexionPool.getConnection();
     }
 
     @Override

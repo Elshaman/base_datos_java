@@ -4,11 +4,8 @@ import org.example.modelo.Categoria;
 import org.example.modelo.Producto;
 import org.example.repositorio.ProductoRepositorioImp;
 import org.example.repositorio.Repositorio;
-import org.example.util.ConexionSingleton;
 
-import java.sql.Connection;
 import java.sql.Date;
-import java.sql.SQLException;
 
 public class EjemploJdbcUpdate {
 
