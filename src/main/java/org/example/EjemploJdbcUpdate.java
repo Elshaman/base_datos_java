@@ -10,7 +10,7 @@ import java.sql.Connection;
 import java.sql.Date;
 import java.sql.SQLException;
 
-public class EjemploJdbc {
+public class EjemploJdbcUpdate {
 
     public static void main(String[] args) {
 
@@ -22,16 +22,17 @@ public class EjemploJdbc {
             repo.listar().forEach(System.out::println);
             System.out.println("========== obtener por id ================");
             System.out.println(repo.porId(1L));
-            System.out.println("========== insertar ================");
+            System.out.println("========== editar ================");
             Producto p = new Producto();
-            p.setNombre("tecla red dragon  mecanico");
-            p.setPrecio(500);
-            p.setFechaRegistro(new Date(2023 , 3 , 3));
+            p.setId(4L);
+            p.setNombre("TEclado corsair mecanico");
+            p.setPrecio(600);
             Categoria categoria = new Categoria();
-            categoria.setId(3L);
+            categoria.setId(1L);
             p.setCategoria(categoria);
+            p.setFechaRegistro(new Date(2023 , 3 , 3));
             repo.guardar(p);
-            System.out.println("Producto guardado con exito");
+            System.out.println("Producto editado con exito");
             repo.listar().forEach(System.out::println);
 
     }
